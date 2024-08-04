@@ -19,14 +19,14 @@ public class pattern
 			{
 				for(j=0;j<(n*2)+1;j++)
 				{
-					System.out.print("*");
+					System.out.print("#");
 				}
 			}
 			else
 			{
 				for(j=n;j>=i;j--)
 				{
-					System.out.print("*");
+					System.out.print("#");
 				}
 				for(j=0;j<cnt;j++)
 				{
@@ -34,7 +34,7 @@ public class pattern
 				}
 				for(j=n;j>=i;j--)
 				{
-					System.out.print("*");
+					System.out.print("#");
 				}
 			}
 			cnt+=2;
@@ -46,14 +46,14 @@ public class pattern
 			{
 				for(j=0;j<(n*2)+1;j++)
 				{
-					System.out.print("*");
+					System.out.print("#");
 				}
 			}
 			else
 			{
 				for(j=0;j<=i;j++)
 				{
-					System.out.print("*");
+					System.out.print("#");
 				}
 				for(j=cnt;j>0;j--)
 				{
@@ -61,7 +61,7 @@ public class pattern
 				}
 				for(j=0;j<=i;j++)
 				{
-					System.out.print("*");
+					System.out.print("#");
 				}
 			}
 			cnt-=2;
