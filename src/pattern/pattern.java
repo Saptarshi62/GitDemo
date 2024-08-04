@@ -67,6 +67,7 @@ public class pattern
 			cnt-=2;
 			System.out.println("");
 		}
+		System.out.println("Completed");
 	}
 
 }
